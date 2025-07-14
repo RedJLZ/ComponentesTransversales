@@ -1,14 +1,14 @@
-import SearchInput from "./Componentes/SearchInput"
+import SearchInput from './Componentes/SearchInput';
 
 function App() {
   return (
     <>
-          {/* <Input/> */}
+      {/* <Input/> */}
       {/* <InputOpt/> */}
-    {/*  <InputPassword/> */}
-      <SearchInput/>
+      {/*  <InputPassword/> */}
+      <SearchInput />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

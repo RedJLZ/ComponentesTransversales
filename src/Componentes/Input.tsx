@@ -8,27 +8,26 @@ const Input = () => {
     alert(inputRef.current?.value ?? 'Sin valor');
   };
   return (
-    <div className="p-4 space-y-4 max-w-xs">
+    <div className="max-w-xs space-y-4 p-4">
       <InputBase
         classNames={{
           inputWrapper: 'border-green-500 hover:!border-green-600',
           label: 'text-green-600',
           input: 'text-green-700',
         }}
-        color={"success"}
+        color={'success'}
         label="Email"
         type="email"
         variant="bordered"
-
       />
       <button
         onClick={handleCheck}
-        className="bg-blue-600 text-white px-4 py-2 rounded"
+        className="rounded bg-blue-600 px-4 py-2 text-white"
       >
         Obtener valor
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Input
+export default Input;
