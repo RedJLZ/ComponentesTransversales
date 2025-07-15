@@ -12,7 +12,7 @@ importers:
         specifier: ^2.7.11
         version: 2.7.11(@types/react@19.1.8)(framer-motion@12.23.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@3.4.17)
       '@ppm/frontend-toolkit-ui':
-        specifier: file:../../ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz
+        specifier: file:C:/Users/PORT170-NB/Desktop/ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz
         version: file:../../ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz(@types/react@19.1.8)(framer-motion@12.23.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@3.4.17)
       autoprefixer:
         specifier: ^10.4.21
@@ -1004,11 +1004,11 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
   '@ppm/frontend-toolkit-ui@file:../../ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz':
-    resolution: {integrity: sha512-bQaF1SILhCtctKk5MBRQ95kwFt20+JhqRNtfGiNfUV1OJwcZ9SbiVGyrh/L3EiNNzdrKw/YTeuSLOFD5bvN9TA==, tarball: file:../../ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz}
+    resolution: {integrity: sha512-jcU+20rYAPYtzcdJtOZyvScTmuniNuEopreYur/qtghxtTqoty8daCQYYRyCbxi7tRHJoYa605Qur8oyQZeAwQ==, tarball: file:../../ProyectoBackOffice/frontend-toolkit-ui/ppm-frontend-toolkit-ui-0.1.3.tgz}
     version: 0.1.3
     peerDependencies:
-      react: '>=18.2.0 <20.0.0'
-      react-dom: '>=18.2.0 <20.0.0'
+      react: ^19.1.0
+      react-dom: ^19.1.0
 
   '@react-aria/breadcrumbs@3.5.26':
     resolution: {integrity: sha512-jybk2jy3m9KNmTpzJu87C0nkcMcGbZIyotgK1s8st8aUE2aJlxPZrvGuJTO8GUFZn9TKnCg3JjBC8qS9sizKQg==}

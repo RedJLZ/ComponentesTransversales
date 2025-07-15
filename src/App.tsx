@@ -1,12 +1,14 @@
-import SearchInput from './Componentes/SearchInput';
+import Tabla from './Componentes/Tabla';
 
 function App() {
   return (
     <>
       {/* <Input/> */}
       {/* <InputOpt/> */}
-      {/*  <InputPassword/> */}
-      <SearchInput />
+      {/* <InputPassword /> */}
+      {/* <SearchInput /> */}
+      {/* <ComponentFilter /> */}
+      <Tabla />
     </>
   );
 }
